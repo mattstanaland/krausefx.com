@@ -470,45 +470,36 @@
   
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline"><a href="/blog/ending-my-fastlane-chapter">Ending my fastlane chapter</a></h1>
+        <h1 class="post-title" itemprop="name headline"><a href="/blog/tsmessages">TSMessages</a></h1>
         <p class="post-meta">
-          <time datetime="2019-02-13T00:00:00+00:00" itemprop="datePublished">
+          <time datetime="2013-04-16T00:00:00+00:00" itemprop="datePublished">
             
-            Feb 13, 2019
+            Apr 16, 2013
           </time>
           </p>
       </header>
 
       <div class="post-content" itemprop="articleBody">
-        <p>I’ve built and published iOS apps for over 8 years now. Back then the App Store review times were over 2 weeks, iTunes Connect would allow only uploads of a single screenshot at a time, there was no CocoaPods… and code signing was pretty much the same as it is today.</p>
+        <p><img src="/squarespace_images/static_545299aae4b0e9514fe30c95_54529a29e4b025a90f45cc50_54529a2ce4b025a90f45cdb1_1414699603405_iNotificationWarning.png_" alt="" /></p>
 
-<p>In 2014, I sat in my dorm room and started working on a tool to solve some of the challenges I faced as an iOS developer. It started out by just automating the upload of screenshots and binaries to iTunes Connect. After publishing the initial version in November 2014, the iOS community seemed excited about it. It slowly went from just <em>deliver</em>, to more tools like <em>snapshot</em> to generate the screenshots and <em>pem</em> to automate iOS push notifications.</p>
+<p>After open sourcing my first piece of software on GitHub (
+<a href="/blog/automatic-screenshots-for-ios-apps">iOS-Screenshot-Automator</a>) I decided to open source another component. It’s called TSMessages and allows the developer to easily display little Notification/Messages on the top of the screen without stopping the user interaction. (similar to Tweetbot)</p>
 
-<p><img src="/assets/posts/fastlane-dormroom.jpeg" /></p>
+<p>The notification moves from the top of the screen underneath the navigation bar and stays there for a few seconds, depending on the length of the displayed text. To dismiss a notification before the time runs out, the user can swipe it to the top or just tap it.</p>
 
-<p>Fast-forward to today, I’m so humbled by what <em>fastlane</em> has grown to be. It has changed the way large iOS teams work every day, how they release their app updates, and how code signing works. It even enabled founders to start new businesses using <em>fastlane</em> as their core foundation.</p>
+<p>There are 4 different types already set up for you: Success, Error, Warning, Message (take a look at the screenshots)</p>
 
-<p><img src="/assets/posts/fastlane-growth.png" style="margin-top: 20px; margin-bottom: 20px" /></p>
+<p><a href="https://github.com/toursprung/TSMessages">https://github.com/toursprung/TSMessages</a></p>
 
-<p>I’m so proud to see how the community has grown around it. When <em>fastlane</em> initially launched, it supported only 10 integrations. Today there are over 570 different integrations, from code coverage reports, beta testing services to build version management. All of this wouldn’t have been possible without the <a href="https://github.com/fastlane/fastlane/graphs/contributors">all the 922 contributors of the <em>fastlane</em> main code base</a>, all <a href="https://docs.fastlane.tools/plugins/available-plugins/">the authors of the 355 third party plugins</a>, as well as the <a href="https://github.com/fastlane/fastlane#fastlane-team">fastlane core contributor team</a>.</p>
+<p>With over 2.400 Favs on Github it’s in the top 100 Objective C repositories on GitHub.</p>
 
-<p><img src="/assets/posts/fastlane-team.jpg" /></p>
+<p><img src="/squarespace_images/static_545299aae4b0e9514fe30c95_54529a29e4b025a90f45cc50_5452bb51e4b0c4d5c0fca677_1414708052723_687474703a2f2f7777772e746f7572737072756e672e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031332f30342f694e6f74696669636174696f6e4d6573736167652e706e67.png_" alt="" /></p>
 
-<p>It was great to see <em>fastlane</em> evolving from a small side project, into a stable, self-sustainable open source project with a strong community of contributors around it. I have no doubts that <em>fastlane</em> will continue growing stronger in the next years, with the support of Google, as well as other companies and individual contributors.</p>
+<p><img src="/squarespace_images/static_545299aae4b0e9514fe30c95_54529a29e4b025a90f45cc50_5452bb59e4b0f94405cf72ba_1414708058228_687474703a2f2f7777772e746f7572737072756e672e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031332f30342f694e6f74696669636174696f6e537563636573732e706e67.png_" alt="" /></p>
 
-<p><strong>📯 After 4.5 years it’s time for me to step away from <em>fastlane</em>, and with that leave Google.</strong></p>
+<p><img src="/squarespace_images/static_545299aae4b0e9514fe30c95_54529a29e4b025a90f45cc50_5452bb54e4b01ef0c068c856_1414708052702_687474703a2f2f7777772e746f7572737072756e672e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031332f30392f7761726e696e675f696f73372e706e67.png_" alt="" /></p>
 
-<p>As for what’s next, I don’t have any specific plans yet. I’ll be taking a vacation and then figuring out what problem I’m excited to solve next :)</p>
-
-<p>As always, you can stay in touch on <a href="https://twitter.com/krausefx">Twitter</a> and <a href="https://instagram.com/krausefx">Instagram</a>.</p>
-
-<h3 id="what-does-it-mean-for-fastlane">What does it mean for <em>fastlane</em>?</h3>
-
-<p>Google will keep investing in <em>fastlane</em>. There will be no changes to <em>fastlane</em> and its support system. To get help with <em>fastlane</em>, <a href="https://github.com/fastlane/fastlane/issues/new/choose">submit an issue on GitHub</a>. At the same time, we will continue accepting <a href="https://github.com/fastlane/fastlane/blob/master/CORE_CONTRIBUTOR.md">new fastlane core contributors</a>, meaning you can get full push access to the <em>fastlane</em> code base.</p>
-
-<h3 id="thank-you">Thank you</h3>
-
-<p>I’d like to thank everyone from the Twitter Fabric, Firebase and Google Cloud teams for taking <em>fastlane</em> where it is today. I’d like to specifically call out all the contributors and the iOS community for welcoming <em>fastlane</em> and continuing to support it. In particular <a href="https://twitter.com/hemal">Hemal</a> who believed in my vision and helped me grow personally and professionally.</p>
+<p><img src="/squarespace_images/static_545299aae4b0e9514fe30c95_54529a29e4b025a90f45cc50_5452bb53e4b0c4d5c0fca68a_1414708054471_687474703a2f2f7777772e746f7572737072756e672e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031332f30392f6572726f725f696f73372e706e67.png_" alt="" /></p>
 
 
         <!-- <p style="margin-top: 30px" class="side-projects-note">
@@ -519,9 +510,9 @@
 
       <p class="extra-info">
         
-          Tags: fastlane &nbsp; | &nbsp; 
+          Tags: In-App, like, Messages, Notification, Replacement, TSMessages, Tweetbot, UIAlertView &nbsp; | &nbsp; 
         
-        <a href="https://github.com/KrauseFx/krausefx.com/edit/master/_posts/2019-02-13-ending-my-fastlane-chapter.md" target="_blank" class="forkButton">
+        <a href="https://github.com/KrauseFx/krausefx.com/edit/master/_posts/2013-04-16-tsmessages.md" target="_blank" class="forkButton">
   <svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
  
   Edit on GitHub
@@ -531,59 +522,36 @@
   
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline"><a href="/blog/continuous-delivery-for-your-profile-picture">How I silently changed my profile picture every other year</a></h1>
+        <h1 class="post-title" itemprop="name headline"><a href="/blog/youthhotspot">YouthHotSpot</a></h1>
         <p class="post-meta">
-          <time datetime="2018-12-30T00:00:00+00:00" itemprop="datePublished">
+          <time datetime="2013-03-04T00:00:00+00:00" itemprop="datePublished">
             
-            Dec 30, 2018
+            Mar 4, 2013
           </time>
           </p>
       </header>
 
       <div class="post-content" itemprop="articleBody">
-        <p><a href="https://twitter.com/rrhoover">Ryan Hoover</a> hasn’t changed his profile picture for about 10 years now.</p>
+        <p><img src="/squarespace_images/static_545299aae4b0e9514fe30c95_54529a29e4b025a90f45cc50_5453ace5e4b025f7beacfc10_1414769893822__img.png_" align="right" width="128" /></p>
 
-<p>He talks about it on his blog <a href="https://medium.com/@rrhoover/why-i-never-change-my-profile-pic-72de0daa2785">“Why I Never Change My Profile Pic”</a>:</p>
+<p>YouthHotspot is the perfect app for your next trip to Germany. You have access to free WiFi hotspots and hundreds of tips for bars &amp; cafés, shopping, festivals+ over 80 vouchers. The app works completely offline from the first app start on.</p>
 
-<blockquote>
-  <p><strong>People recognize you by your avatar</strong>. Once changed, followers need to re-associate the new photo with your person.</p>
-</blockquote>
+<p> </p>
 
-<p>I very much agree: whenever someone changes their profile picture, it takes time to get used to it, and start recognizing their avatar in timelines again.</p>
+<p>You can download the app for free from the 
+<a href="https://itunes.apple.com/en/app/youth-hotspot-share-moment./id608550243?mt=8">AppStore</a>. The app is also available on Android.</p>
 
-<div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">That’s exactly what I think too when I come across some weird new avatar because someone changed theirs.</p>&mdash; Todd Thomas (@toddthomas) <a href="https://twitter.com/toddthomas/status/968536885415981057?ref_src=twsrc%5Etfw">February 27, 2018</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
+<p> </p>
 
-<p>Back in 2014 I took a photo at the local photo studio <a href="http://www.die-fotograefin.at/">Die Fotogräfin</a>:</p>
+<p><img src="/squarespace_images/static_545299aae4b0e9514fe30c95_54529a29e4b025a90f45cc50_5453ac94e4b03c3bc2fdd9df_1414769813776_en-iphone5-MainMenu.png_" alt="" /></p>
 
-<p><img src="/assets/posts/profilePictures/FelixKrause2014.jpg" width="100" alt="Felix Krause in 2014" /></p>
-<p style="margin-top: -10px; margin-bottom: 0px"><small style="margin-left: 35px;">2014</small></p>
+<p><img src="/squarespace_images/static_545299aae4b0e9514fe30c95_54529a29e4b025a90f45cc50_5453aca3e4b0fd57c5c92fd8_1414769829073_en-iphone5-Map.png_" alt="" /></p>
 
-<p>After a while, I didn’t like the fact that the profile picture isn’t updated at all, but also I wanted to follow Ryan’s advice. The solution?</p>
+<p><img src="/squarespace_images/static_545299aae4b0e9514fe30c95_54529a29e4b025a90f45cc50_5453ac9ae4b03c3bc2fdda0a_1414769820523_en-iphone5-Filter.png_" alt="" /></p>
 
-<p><strong>Let’s take the exact same picture again</strong>, same t-shirt, same light, same background, and same pose:</p>
+<p><img src="/squarespace_images/static_545299aae4b0e9514fe30c95_54529a29e4b025a90f45cc50_5453acafe4b03c3bc2fdda5b_1414769840347_en-iphone5-POIDetail.png_" alt="" /></p>
 
-<p><img src="/assets/posts/profilePictures/FelixKrause2016.jpg" width="100" alt="Felix Krause in 2016" /></p>
-<p style="margin-top: -10px; margin-bottom: 0px"><small style="margin-left: 35px;">2016</small></p>
-
-<p>I silently changed the profile picture on Twitter and GitHub, and almost no one noticed, with just a few <a href="https://twitter.com/hemal/status/818872223268294656">tweets</a> calling me out.</p>
-
-<p>It even went that far, that <a href="https://twitter.com/steipete">Peter Steinberger</a> covered my profile picture story in his conference talk about <a href="https://twitter.com/steipete/status/998454406126424069">personal branding</a>.</p>
-
-<p>Using this approach, you can keep the recognition value, while making sure your current profile picture reflects on how you currently look like.</p>
-
-<p>Following the “Continuous Delivery for your profile picture” approach, I took another one this year.</p>
-
-<p><img src="/assets/posts/profilePictures/FelixKrause2018.jpg" width="100" alt="Felix Krause in 2018" /></p>
-
-<p style="margin-top: -10px; margin-bottom: 0px"><small style="margin-left: 35px;">2018</small></p>
-
-<p>Again, almost no one noticed, with only <a href="https://twitter.com/lehrjulian/status/1077881037164814336">one tweet</a> mentioning it.</p>
-
-<p>So here are the last 6 years in profile pictures - I plan on continuing this strategy and take a new photo every second year:</p>
-
-<p><img src="/assets/posts/profilePictures/ProfilePictureDiff.jpg" /></p>
+<p><img src="/squarespace_images/static_545299aae4b0e9514fe30c95_54529a29e4b025a90f45cc50_5453acb0e4b0fd57c5c93005_1414769841953_en-iphone5-POIList.png_" alt="" /></p>
 
 
         <!-- <p style="margin-top: 30px" class="side-projects-note">
@@ -594,9 +562,7 @@
 
       <p class="extra-info">
         
-          Tags: profile, picture, personal, brand &nbsp; | &nbsp; 
-        
-        <a href="https://github.com/KrauseFx/krausefx.com/edit/master/_posts/2018-12-30-continuous-delivery-for-your-profile-picture.md" target="_blank" class="forkButton">
+        <a href="https://github.com/KrauseFx/krausefx.com/edit/master/_posts/2013-03-04-youthhotspot.md" target="_blank" class="forkButton">
   <svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
  
   Edit on GitHub
@@ -606,175 +572,30 @@
   
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline"><a href="/blog/one-year-nomad">One year nomad - a review</a></h1>
+        <h1 class="post-title" itemprop="name headline"><a href="/blog/wandermap">Wandermap</a></h1>
         <p class="post-meta">
-          <time datetime="2018-11-09T00:00:00+00:00" itemprop="datePublished">
+          <time datetime="2013-03-04T00:00:00+00:00" itemprop="datePublished">
             
-            Nov 9, 2018
+            Mar 4, 2013
           </time>
           </p>
       </header>
 
       <div class="post-content" itemprop="articleBody">
-        <div class="jekyll-twitter-plugin"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">I got rid of all my stuff and live off only a suitcase - staying in Airbnbs to explore different areas 🏡🚀 excited to live nomad life <a href="https://t.co/nWGf7AFKiZ">pic.twitter.com/nWGf7AFKiZ</a></p>&mdash; Felix Krause (@KrauseFx) <a href="https://twitter.com/KrauseFx/status/928718106876305408?ref_src=twsrc%5Etfw">November 9, 2017</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
+        <p><a href="http://static.squarespace.com/static/545299aae4b0e9514fe30c95/54529a29e4b025a90f45cc50/54529a2be4b025a90f45cd85/1362426470000/114x114@2x.png?format=original"><img src="/squarespace_images/static_545299aae4b0e9514fe30c95_54529a29e4b025a90f45cc50_54529a2be4b025a90f45cd85_1414699601162_114x114%402x.png_" alt="Wandermap App Icon" /></a></p>
 
-<h2 id="background">Background</h2>
+<p>Wandermap is a free iPhone app to find the best hiking routes around you. Download it from the AppStore for free: 
+<a href="https://itunes.apple.com/at/app/wandermap/id592800988?l=en&amp;mt=8">Download</a> There are many nice featured included like a synchronised route collection between devices and the web version and offline support.</p>
 
-<p><a href="/blog/going-nomad">Today one year ago</a> I decided to get rid of my belongings and live out of a suitcase. It started as an experiment I didn’t expect to be doing for long. However after 365 days without a permanent home, I have no intentions on changing my current setup.</p>
+<p><img src="/squarespace_images/static_545299aae4b0e9514fe30c95_54529a29e4b025a90f45cc50_5452b78ee4b0bcd610a3dc09_1414707086924_Wandermap+Sidebar.png_" alt="" /></p>
 
-<p>To summarize the <a href="/blog/going-nomad">last year’s thoughts</a> on why I want to stop having a lease:</p>
+<p><img src="/squarespace_images/static_545299aae4b0e9514fe30c95_54529a29e4b025a90f45cc50_5452b78ae4b0bcd610a3dbe7_1414707088541_Wandermap.png_" alt="" /></p>
 
-<ul>
-  <li><strong>Money</strong>: I only spent about 200 nights at home, making it unused for almost half the year</li>
-  <li><strong>Routine</strong>: I don’t like having a routine when it comes places, subway and commute</li>
-  <li><strong>Maintenance</strong>: I don’t enjoy spending time setting up my apartment &amp; repairing things</li>
-</ul>
+<p><img src="/squarespace_images/static_545299aae4b0e9514fe30c95_54529a29e4b025a90f45cc50_5452b77be4b0aba8e815ffa6_1414707069454_Wandermap+Filters.png_" alt="" /></p>
 
-<p>Most digital nomads run their own business or are freelancers/consultants. I’m a full-time Google employee working on <a href="https://fastlane.tools">fastlane</a> here in New York City.</p>
+<p><img src="/squarespace_images/static_545299aae4b0e9514fe30c95_54529a29e4b025a90f45cc50_5452b784e4b0aba8e815ffc9_1414707077859_Wandermap+Route+Details.png_" alt="" /></p>
 
-<p><a href="https://instagram.com/krausefx">
-  <img src="/assets/posts/nomad/working-desk1.jpg" />
-</a></p>
-
-<h2 id="how-is-the-nomad-life-so-far">How is the nomad life so far?</h2>
-
-<ul>
-  <li>I enjoy the flexibility of changing cities and neighborhoods as I want</li>
-  <li>Living out of a suitcase &amp; carry-on has worked surprisingly well: while I do have to limit the number of items I own, I haven’t had any troubles with it. Getting through the New York winter is a little trickier, so I keep one winter jacket in NYC, and one in Europe</li>
-  <li>Maintaining fitness progress is trickier, mostly due to the change of kitchen on every move</li>
-  <li>One time I stayed on a boat in New York 🛥</li>
-  <li>I got to stay in 8 different New York neighborhoods</li>
-  <li>I always have clothes for 12 days with me</li>
-  <li>I never forget stuff as I always have everything with me, there is no such thing as “I didn’t bring X on my trip”</li>
-</ul>
-
-<p><a href="https://instagram.com/krausefx">
-  <img src="/assets/posts/nomad/from-top.jpg" />
-</a></p>
-
-<h2 id="money">Money</h2>
-
-<p>One of the main motivators of starting my nomad life was to save money. Today I did the math to see if it actually worked.</p>
-
-<p><strong>The last 365 days I:</strong></p>
-
-<ul>
-  <li>Spoke at a <a href="https://github.com/krausefx/speaking">total of 7 conferences</a>, in Russia, Austria, USA, Serbia and Norway</li>
-  <li>Visited the SF Bay Area 3 times for team offsites and WWDC</li>
-  <li>Stayed with my family in Austria for a total of 2 months</li>
-  <li>Stayed at “home” in NYC/SF in Airbnbs for a total of <strong>231 nights</strong> paying a total of <strong>$26,130</strong> (63% of the nights of the year)</li>
-</ul>
-
-<p>As mentioned in my <a href="/blog/going-nomad">previous nomad post</a>, the average rent in Airbnb can be assumed to be about $3,000 for a studio apartment. Including utilities, furniture and other expenses related to the apartment, you can easily pay a total of about <strong>$40,000</strong> per year if you want <a href="https://www.rentcafe.com/average-rent-market-trends/us/ny/manhattan/">your own apartment in Lower Manhattan</a>.</p>
-
-<p>Meaning I saved about <strong>$14,000</strong> by going nomad, while having far less responsibilities, as well as get to see new places and neighborhoods each month.</p>
-
-<h2 id="airbnbs">Airbnbs</h2>
-
-<p>Most of the times I lived in Airbnbs in NYC, my experience with it has been pretty good so far. The check-in usually works by picking up the key from a KeyCafe in a nearby Deli. This part is quite tricky, as I have to enter the Deli with all my stuff, and then climb the stairs as most older buildings in NYC don’t have an elevator.</p>
-
-<p><img src="/assets/posts/nomad/airbnb-history.jpg" /></p>
-
-<p>My friends working at Airbnb are happy about the fees I pay on each booking :)</p>
-
-<p>One thing that has proven extremely useful is using the best travel credit card you can get: By receiving 4.5% cash-back for each travel-related purchase, I get over <strong>$1,000 for free</strong> every year by living in Airbnbs and using my credit card.</p>
-
-<p style="text-align: center">
-  <img src="/assets/posts/nomad/boat.jpg" />
-</p>
-
-<p>For a few nights I stayed on a boat in New York through Airbnb, costing the same as all my other Airbnbs per night (note: it’s the small one in front).</p>
-
-<p style="text-align: center">
-  <img src="/assets/posts/nomad/working-desk2.jpg" />
-</p>
-
-<p>One highlight was a 2 weeks trip to Taipei together with <a href="https://twitter.com/taquitos">@taquitos</a> to work together, instead of meeting in San Francisco or New York.</p>
-
-<h2 id="conferences">Conferences</h2>
-
-<p>When being invited to speak at conferences, the conference organizers cover the hotel during your stay. Every night they cover saves me about $100 (assuming the SF/NYC rent prices), as I don’t have to pay my lease during that time. I usually combine multiple conferences on one multi-week trip and cover the hotel nights in-between instead of flying back and forth.</p>
-
-<h2 id="friends--happiness">Friends &amp; Happiness</h2>
-
-<p><a href="https://instagram.com/krausefx" target="_blank">
-  <img src="/assets/posts/nomad/friends.jpg" align="right" width="310" style="margin-left: 20px;" />
-</a></p>
-
-<p>This is something I talked about in the <a href="/blog/going-nomad">original nomad blog post</a>: If you travel to a new city every other week, it’s going to be really difficult to build up close relationships with friends. That’s why I’ve been a big fan of the current setup: I stay in the same city, but move within it, meaning I get to hang out with the same group of people and spend quality time with them, while still having the benefits of a nomad life.</p>
-
-<p>Since February 2018 I’m tracking my mood &amp; happiness level 3 times a day, here is the result so far:</p>
-
-<p><img src="/assets/posts/nomad/mood.png" /></p>
-
-<p>3 times a day I answer the question on how I’m feeling on a scale from 0 to 6 using my <a href="https://github.com/KrauseFx/mood">open source Telegram bot</a></p>
-
-<blockquote>
-  <p>If today were the last day of my life, would I want to do what I am about to do today?” And whenever the answer has been “No” for too many days in a row, I know I need to change something.</p>
-</blockquote>
-
-<p>As everything in life, things are an up and down. The overall trend is visible as the green line, which is clearly a wave going in cycles. I marked the <code class="highlighter-rouge">I'm feeling average</code> level as orange. Ideally I don’t want any of the other colored lines to go below it. One-off values below it are common as seen as the light gray dots. Looking at the graph, every time the blue line dropped below the orange one, something happened that affected my overall mood. It’s good to see the line usually recovering back to normal rather fast.</p>
-
-<h2 id="fitness">Fitness</h2>
-
-<p>I’ve been spending a lot of time working on reaching my fitness goals in the year of 2018, and it has worked surprisingly well:</p>
-
-<ul>
-  <li>The last years I did mostly power lifting, so I also gained a good amount of fat. As of February 2018 I wanted to work on appearance and wanted to focus on a clean diet as well as a different workout</li>
-  <li>I lost 25lbs (11 kg) within 6 months while keeping a good amount of muscle mass</li>
-  <li>I stopped cooking at home, as finding things at a new kitchen and setting everything up doesn’t work if you’re only staying for a week or two. Instead, 100% of my meals were from the Google office and eating out. This makes following a strict nutrition plan a lot more difficult, as I can’t track the exact macros, and don’t have control over the fat that’s used</li>
-  <li>I managed to drop my body fat percentage by 6%, to a total of 8.9% according to the <a href="https://www.nhs.uk/conditions/dexa-scan/">DEXA scan</a> (the only decent-precise way to measure body fat)</li>
-  <li>I travel my own <a href="https://www.amazon.com/gp/product/B00D5FGR2C/ref=oh_aui_search_detailpage?ie=UTF8&amp;psc=1">travel scale</a> to track my body weight every morning</li>
-  <li>I track everything I eat in MyFitnessPal. Tracking food is a game changer, no matter how well you think you eat, MyFitnessPal will most likely tell you otherwise if you haven’t tracked macros in the past (very thankful my fitness trainer <a href="https://instagram.com/faronsalisbury">@faronsalisbury</a> convinced me to do this)</li>
-  <li>I usually stock up the fridge with a few essentials, being frozen chicken breast, frozen veggies, black beans, oatmeal and some diet sodas.</li>
-  <li>Having a routine, and your own place with your own kitchen would make reaching fitness goals easier</li>
-</ul>
-
-<h2 id="whereisfelixtoday">whereisfelix.today</h2>
-
-<p>A joke project I started back in February 2018: <a href="https://whereisfelix.today">whereisfelix.today</a></p>
-
-<p>As people in SF/NYC travel around a lot, it’s often difficult to schedule time to meet. Most conversations start with “Hey, when are you back in New York?”. I decided to buy this domain for fun, and have my travel schedule up there.</p>
-
-<p>The reactions from people when I send them this link are great. I now even have a shortcut on my Mac to type the domain for me.</p>
-
-<p><a href="https://whereisfelix.today">
-  <img src="/assets/posts/nomad/whereisfelix1.png" width="400px" style="margin-right: -20px; margin-left: -20px;" />
-  <img src="/assets/posts/nomad/whereisfelix2.png" width="400px" style="margin-right: -40px; margin-left: -20px;" />
-</a></p>
-
-<p>It’s a real-time dashboard of which city I’m currently in, as well as my upcoming travel schedule. Over the last few months I added more and more information to it, including my current mood (which I track with my <a href="https://github.com/krausefx/mood">open source Telegram bot</a>), the macros I ate today, current time, weight and most recent Instagram pictures.</p>
-
-<p>I used this project as an excuse to learn some things I haven’t used yet: TypeScript, node.js, Angular, and immutable deployments on <a href="https://zeit.co">Zeit</a>.</p>
-
-<p>The website itself is also <a href="https://github.com/krausefx/whereisfelix.today">open source on GitHub</a>.</p>
-
-<h2 id="downsides">Downsides</h2>
-
-<ul>
-  <li>Turns out, government entities and banks are not so familiar with the concept of digital nomads and are not happy when you tell them you don’t have a home address, nor a utility bill or lease agreement. I’m happy I opened all my financial accounts before this change, as it for sure makes things a little more complicated.</li>
-  <li>Moving around is exhausting, even if you only carry your suitcase + bag. It still takes about 3 hours to move to a new place.</li>
-  <li>Everything around fitness, from tracking, cooking to buying food in bulk, to meal-prepping would be a lot easier if I wasn’t a nomad</li>
-  <li>Media: I don’t watch a lot of TV, nor play a lot of games, but when I do, it’s annoying to get things up and running. Setting things up takes time, and is usually not worth it. I end up watching Netflix just on my phone, and the only console I have is the Nintendo Switch, as I can play without a TV. The same goes for the sound system: I ended up buying my own <a href="https://smile.amazon.com/Bose-SoundLink-Portable-Long-Lasting-Bluetooth/dp/B06XCW4VFS/ref=sr_1_17?s=electronics&amp;ie=UTF8&amp;qid=1541758490&amp;sr=1-17">portable speaker</a> I bring with me so I don’t have to deal with learning how each apartment’s sound system works.</li>
-  <li>It takes a lot of time finding good Airbnbs, lots of hosts don’t respond and you have to plan ahead</li>
-  <li>I miss having a proper working setup outside the office: Having an external monitor and a standing desk is something I really learned to appreciate. As shown in the pictures in this post, I carry around a <a href="https://www.therooststand.com/">mobile MacBook stand</a>, as well as Apple keyboard, trackpad and mouse.</li>
-</ul>
-
-<h2 id="conclusion">Conclusion</h2>
-
-<p><img src="/assets/posts/nomad/suitcases2.jpg" align="right" width="300" style="margin-left: 20px;" /></p>
-
-<p>Living out of a suitcase comes with its challenges. You learn a lot about yourself, what you need, what you appreciate and how to optimize your life around not owning a lot.</p>
-
-<p>I really appreciate the chance to re-invent your daily schedule every time you move. You learn a lot about different kinds of apartments and what you make use of most often.</p>
-
-<p>Staying in one city, and moving within it has proven very efficient when it comes to being productive, getting to know new people as well as staying close with your friends.</p>
-
-<p>It is possible to reach your fitness goals without a fixed routine, and without cooking, however it does make things a little more challenging. Having a gym membership with a chain that has multiple locations in your city is key 🔑.</p>
-
-<p>I’m really happy I made the switch, it has been a great journey so far.</p>
+<p><img src="/squarespace_images/static_545299aae4b0e9514fe30c95_54529a29e4b025a90f45cc50_5452b78de4b0aba8e815ffe3_1414707087475_Wandermap+Route+List.png_" alt="" /></p>
 
 
         <!-- <p style="margin-top: 30px" class="side-projects-note">
@@ -785,9 +606,9 @@
 
       <p class="extra-info">
         
-          Tags: digital, nomad &nbsp; | &nbsp; 
+          Tags: App, iOS, iPhone, Toursprung, Wandermap &nbsp; | &nbsp; 
         
-        <a href="https://github.com/KrauseFx/krausefx.com/edit/master/_posts/2018-11-09-one-year-nomad.md" target="_blank" class="forkButton">
+        <a href="https://github.com/KrauseFx/krausefx.com/edit/master/_posts/2013-03-04-wandermap.md" target="_blank" class="forkButton">
   <svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
  
   Edit on GitHub
@@ -797,46 +618,36 @@
   
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
       <header class="post-header">
-        <h1 class="post-title" itemprop="name headline"><a href="/blog/ios-factor">iOS-factor: A methodology for building high-quality iOS apps</a></h1>
+        <h1 class="post-title" itemprop="name headline"><a href="/blog/automatic-screenshots-for-ios-apps">Automatic screenshots for iOS apps</a></h1>
         <p class="post-meta">
-          <time datetime="2018-07-07T00:00:00+00:00" itemprop="datePublished">
+          <time datetime="2013-01-24T00:00:00+00:00" itemprop="datePublished">
             
-            Jul 7, 2018
+            Jan 24, 2013
           </time>
           </p>
       </header>
 
       <div class="post-content" itemprop="articleBody">
-        <p><a href="https://ios-factor.com">iOS-factor</a> was inspired by the famous <a href="https://www.12factor.net/">twelve-factor app framework</a>, a methodology to write high-quality web services. <a href="https://ios-factor.com">iOS-factor</a> uses the same structure and similar principles, re-written and applied to the iOS app development processes.</p>
+        <p><strong>Discontinued: Check out <a href="http://www.felixkrause.at/blog/snapshot-automatically-create-screenshots-of-your-iphone-app">snapshot</a> instead.</strong></p>
 
-<h2 id="background">Background</h2>
+<p><img src="/squarespace_images/static_545299aae4b0e9514fe30c95_54529a29e4b025a90f45cc50_54529a2ae4b025a90f45cd18_1414699602733_Instruments.png_" align="right" width="200" /></p>
 
-<p>Over the past 10 years, the iOS development process has shifted drastically:</p>
+<p>I guess all iOS app developers know this problem: You have to take (usually 5) screenshots of the app for all devices (iPhone 4, iPhone 5, iPad) in all supported languages for every update and every app. When I was working for 
+<a href="https://felix-krause-f13a.squarespace.com/blog/6-wunderkinder">6Wunderkinder</a>  we pushed an update with 30 new languages for iPhone, iPad and the Mac. That means we had to take and upload 30 (languages) * (2 (iPhone) + 1 (iPad) + 1 (Mac)) = 
+<strong>120</strong>
+ screenshots.  </p>
 
-<ul>
-  <li>from supporting a single device to a wide range of available iOS-powered iPhones and iPads and various platforms like tvOS and watchOS</li>
-  <li>from manually including git submodules to using dependency managers</li>
-  <li>from iOS apps mostly running locally on-device, to iOS apps heavily relying on backend services</li>
-  <li>from iOS app review times of more than 2 weeks to less than a day</li>
-  <li>from installing an app on your phone using iTunes to distributing apps through the official TestFlight channel</li>
-  <li>from uploading 5 screenshots per language to iTunes Connect to 110 per language, as well as app previews</li>
-  <li>from plain Objective-C/C++ apps to a mix of languages including JavaScript</li>
-  <li>from slow releases whenever something is ready, to shipping every single week</li>
-  <li>from full releases to A/B testing, slow rollouts and automatic regression detection</li>
-</ul>
+<p>Recently I’ve been working on a script that automates taking screenshots and saving them properly. It is based on 
+<strong>UIAutomation</strong>
+. It navigates through your app and takes all needed screenshots automatically. That means you have to write Javascript code for UIAutomation to control your app and take the screenshots.</p>
 
-<h2 id="whats-ios-factor">What’s <a href="https://ios-factor.com">iOS-factor</a>?</h2>
+<p>The scripts can change the language of the iOS simulator and set the system language. All you have to do is define all needed languages and devices types in the 
+run file.</p>
 
-<p><a href="https://ios-factor.com">iOS-factor</a> is a project I started in May 2018. It aims to provide a collection of best practices for building high-end iOS applications. Each topic is covered by a <code class="highlighter-rouge">factor</code>, which describes an ideal state of how a certain category of the iOS app development process could look like.</p>
+<p>After some developers asked about the scripts I open sourced it on GitHub: 
+<a href="https://github.com/toursprung/iOS-Screenshot-Automator">https://github.com/toursprung/iOS-Screenshot-Automator</a></p>
 
-<p>Due to certain limitations (like Xcode running only on macOS) not all requirements can be fulfilled. This project aims to define goals, as well as the best current approaches to solve some of the challenges we’re facing.</p>
-
-<p><a href="https://ios-factor.com">iOS-factor</a> is all about the bigger-picture iOS app development processes and architecture decisions and will not cover any language specific challenges.</p>
-
-<p>This is a living project, maintained by the iOS development community. You can find the full source on <a href="https://github.com/iOS-factor/iOS-factor.com">GitHub</a> and update existing pages or add new factors.</p>
-
-<h3 style="text-align: center; font-size: 140%"><a href="https://ios-factor.com">Open iOS-factor.com</a></h3>
-
+<p><a href="http://static.squarespace.com/static/545299aae4b0e9514fe30c95/54529a29e4b025a90f45cc50/54529a2ae4b025a90f45cd1b/1359138373000/ScreenshotToolImage.png?format=original"><img src="/squarespace_images/static_545299aae4b0e9514fe30c95_54529a29e4b025a90f45cc50_54529a2ae4b025a90f45cd1b_1414699603206_ScreenshotToolImage.png_" alt="Automatic taking screenshots iOS" /></a></p>
 
 
         <!-- <p style="margin-top: 30px" class="side-projects-note">
@@ -847,9 +658,9 @@
 
       <p class="extra-info">
         
-          Tags: ios &nbsp; | &nbsp; 
+          Tags: automate, device, iOS, iPad, iPhone, languages, screenshot, screenshots, uiautomation &nbsp; | &nbsp; 
         
-        <a href="https://github.com/KrauseFx/krausefx.com/edit/master/_posts/2018-07-07-ios-factor.md" target="_blank" class="forkButton">
+        <a href="https://github.com/KrauseFx/krausefx.com/edit/master/_posts/2013-01-24-automatic-screenshots-for-ios-apps.md" target="_blank" class="forkButton">
   <svg viewBox="0 0 16 16" width="16px" height="16px"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
  
   Edit on GitHub
@@ -861,11 +672,11 @@
   <!-- Pagination links -->
   <div class="pagination">
     
-      <span class="previous">Newer</span>
+      <a href="/blog/page15/" class="previous">Newer</a>
     
     /
     
-      <a href="/blog/page2/" class="next">Older</a>
+      <a href="/blog/page17/" class="next">Older</a>
     
   </div>
 
